@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amaranth:ital@1&family=Montserrat&display=swap" rel="stylesheet"> -->
+
+  <link rel="stylesheet" href="build/css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+  <title>Bicicletas</title>
+</head>
+
+<body>
+  <header class="">
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary p-2">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fas fa-bicycle"></i><b>Bikes</b></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Bicicletas</a></li>
+                <li><a class="dropdown-item" href="#">Accesorios</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Ver todo</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+          <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form> -->
+        </div>
+      </div>
+    </nav>
+    <!--/Navbar-->
+
+
+    <div class="container mt-3">
+
+      <h1>Conoce el mundo sobre ruedas</h1>
+      <p>Súbete a tu bici y conoce el rincón del mundo que desees, ya sea en compañía o no! Descubre cuál es mejor para
+        tu panorama!</p>
+      
+    </div> <br>
+
+  </header>
+
+  <!--Carousel-->
+  <div id="carouselExampleFade" class="container-fluid carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="https://trek.scene7.com/is/image/TrekBicycleProducts/TK21_WEB_UPDATES_ROAD_PLP_Aluminum_Marquee_M_v2?$responsive-pjpg$&cache=on,on&wid=1920"
+          class="container d-block w-100" alt="bici ruta" height="500px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.pinimg.com/originals/64/00/ed/6400ed0c642857b0e36359d4ce7560e9.jpg"
+          class="container d-block w-100" alt="bici mtb" height="500px">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.biciscope.com/wp-content/uploads/2016/10/bicicletas-de-paseo-urbanas.jpg" class="container d-block w-100" alt="bici pistera" height="500px">
+      </div>
+    </div>
+    <button class=" carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div><br>
+      <!--/Carousel-->
+
+      <main class="container mt-4">
+        <div>
+          <h2>TIPOS DE BICICLETAS</h2><br>
+        </div>
+        <!--CARDS-->
+        
+        <div class=" container row">
+          <div class="col-6">
+            <div class="card">
+              <img class="w-100" src="img/bicibianchi.png" alt="bici ruta" height="300px">
+              <div class="card-body">
+                <h3 class="card-title">Ruta</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal1">Saber más</button>
+              </div>
+              <!--button modal-->  
+           
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <img class="w-100" src="https://www.canyon.com/on/demandware.static/-/Sites-canyon-master/default/dwc17ab77a/images/full/full_2022_/2022/full_2022_spectral-yh_3181_wh-wh_P5.png" alt="bici MTB" height="300px">
+              <div class="card-body">
+                <h3 class="card-title">MTB</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                 <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal2">Saber más</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container row mt-4 mb-5">
+          <div class="col-6">
+            <div class="card">
+              <img class="w-100" src="https://http2.mlstatic.com/D_NQ_NP_979382-MLC31211711126_062019-O.jpg" alt="bici pistera" height="300px">
+              <div class="card-body">
+                <h3 class="card-title">Pistera</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal3">Saber más</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card">
+              <img class="w-100" src="https://vutanmapu.cl/pub/media/catalog/product/cache/308a13173b06edd12e7430eb9c12e2da/b/1/b1055.jpg" alt="bici paseo" height="300px">
+              <div class="card-body">
+                <h3 class="card-title">Paseo</h3>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                  card's content.</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#miModal4">Saber más</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+
+        <!--/CARDS-->
+      </main>
+
+      <!--MODALS-->
+  <!--1CARD-->
+  
+  <div class="modal fade my-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="miModal1">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bicicleta de Ruta</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-fex justify-content-center">
+            <img class="container" src="img/bicibianchi.png" width="100px" height="270px  alt="bici ruta">
+          </div>
+              <h3 class="card-title fs-5">Ruta</h3>
+              <p class="card-text descripcion">Todas las bicis de ruta de tienen un rendimiento eficaz en una amplia variedad de terrenos y estilos de ciclistas, desde carreras pro tour hasta paseos de larga distancia.
+              </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+    
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--/1CARD-->
+  
+    <!--2CARD-->
+  
+  <!-- Modal -->
+  <div class="modal fade my-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="miModal2">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bicicleta MTB</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-flex justify-content-center">
+            <img class="container" src="https://www.canyon.com/on/demandware.static/-/Sites-canyon-master/default/dwc17ab77a/images/full/full_2022_/2022/full_2022_spectral-yh_3181_wh-wh_P5.png" alt="MTB" width="100px" height="270px">
+          </div>
+          <h3 class="card-title fs-5">MTB</h3>
+          <p class="card-text descripcion">Las bicis Mountain Bike (MTB), son las que necesitas para que recorras los caminos irregulares que tanto te gustan, ya sea en la montaña, campo o donde quieras.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--/2CARD-->
+  
+    <!--3CARD-->
+  
+  <!-- Modal -->
+  <div class="modal fade my-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="miModal3">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bicicleta Pistera</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-fex justify-content-center">
+            <img class="container" src="https://http2.mlstatic.com/D_NQ_NP_979382-MLC31211711126_062019-O.jpg" alt="bici pistera" width="100px" height="270px">
+          </div>
+              <h3 class="card-title fs-5">Pistera</h3>
+              <p class="card-text descripcion">Tienen un diseño optimizado para su uso en velódromos cubiertos o pistas al aire libre. Son de piñón fijo, es decir, no cuentan con un sistema de cambio de marchas de engranaje.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--/3CARD-->
+  
+    <!--4CARD-->
+  
+  <!-- Modal -->
+  <div class="modal fade my-5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" id="miModal4">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Bicicleta de Paseo</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="d-fex justify-content-center">
+            <img class="container" src="https://vutanmapu.cl/pub/media/catalog/product/cache/308a13173b06edd12e7430eb9c12e2da/b/1/b1055.jpg" alt="img local 2" width="100px" height="270px">
+          </div>
+            <h3 class="card-title fs-5">Paseo</h3>
+            <p class="card-text descripcion">Las bicis de paseo son sencillas, permiten mantener una postura erguida. Pueden tener cambios de marcha o no. Son prácticas, económicas y no se destacan especialmente para el deporte, como otros modelos de bicicletas.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--/4CARD-->
+
+      <!--/MODALS-->
+
+      <!-- Footer -->
+      <footer class="text-center text-lg-start bg-secondary text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center p-3 border-bottom">
+
+          <div class="me-3 d-none d-lg-block">
+            <span><b>Mantente conectado con nosotros a través de las redes sociales</b> </span>
+          </div>
+          <div class="d-flex justify-content-center">
+            <!-- Facebook -->
+            <a class="btn btn-secondary btn-floating m-1" style="background-color: #5d75a8;" href="#!" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-secondary btn-floating m-1" style="background-color: #a3d0f1;" href="#!" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-secondary btn-floating m-1" style="background-color: #f5b3f5;" href="#!" role="button">
+              <i class="fab fa-instagram"></i></a>
+          </div>
+
+        </section>
+
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fs-5 fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Bikes
+                </h6>
+                <p>
+                  Here you can use rows and columns to organize your footer content. Lorem ipsum
+                  dolor sit amet, consectetur adipisicing elit.
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Productos
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Ruteras</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">MTB</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Fixies</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Urbanas</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Accesorios</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Bikes
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Nuestra empresa</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Garantías</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Locales </a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Ayuda</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Contacto
+                </h6>
+                <p><i class="fas fa-home me-3"></i>Santiago, Chile.</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  contacto@bikes.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> +56 9 2345 6788</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Bikes.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+      <!--/Footer-->
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

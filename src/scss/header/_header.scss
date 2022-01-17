@@ -1,0 +1,13 @@
+@use '../custom' as *;
+//font-family: 'Amaranth', sans-serif;
+//font-family: 'Montserrat', sans-serif;
+
+.header {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  @include media-breakpoint-up(md) {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+}
